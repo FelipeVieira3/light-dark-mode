@@ -1,0 +1,39 @@
+@media screen and (min-width: 1024px) {
+    .overview {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        margin: 0;
+        padding: 0;
+
+
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+
+        width: 100vw;
+
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    .overview-cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 1rem;
+        column-gap: .5rem;
+        overflow: hidden;
+
+        margin: 0;
+    }
+
+    .overview-cards__title {
+        color: var(--text-dark-blue);
+        padding-inline: 1.5rem;
+    }
+
+}

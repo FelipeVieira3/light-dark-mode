@@ -1,0 +1,96 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    margin-bottom: 1rem;
+
+    background-color: var(--card-light-BG);
+    width: 85%;
+    height: 15rem;
+
+    border-radius: 5px;
+}
+
+.cards {
+    color: var(--text-dark-blue);
+}
+
+.card.facebook {
+    border-top: 5px solid var(--facebook);
+}
+
+.card.twitter {
+    border-top: 5px solid var(--twitter);
+}
+
+.card.instagram {
+    border: 5px solid;
+    border-image-slice: 1;
+    border-image-source: var(--instagram); 
+    
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
+.card.youtube {
+    border-top: 5px solid var(--bright-red);
+}
+
+.card .numbers {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.card .followers {
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+}
+
+.icon {
+    font-weight: 700;
+}
+
+.icon-container {
+    display: flex;
+    gap: .4rem;
+    align-items: center;
+}
+
+.up-container, .down-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.up-container img, .down-container img {
+    width: 4%;
+}
+
+.instagram.up, .facebook.up, .twitter.up, .youtube.up {
+    color: var(--lime-green);
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.instagram.down, .facebook.down, .twitter.down, .youtube.down {
+    color: var(--bright-red);
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.instagram-icon, .twitter-icon, .youtube-icon {
+    width: 17%;
+}

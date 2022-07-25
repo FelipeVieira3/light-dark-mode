@@ -1,0 +1,50 @@
+#checkbox {
+    display: none;
+}
+
+.toggler {
+    display: block;
+    width:60px;
+    height:30px;
+    border: 2px solid #4672fe;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.ball,
+.fa-sun,
+.fa-moon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ball {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: #4672fe;
+    border-radius: 50%;
+    left: 1px;
+    z-index: 10;
+    transition: transform .3s ease-in-out;
+}
+
+.fa-sun, .fa-moon {
+    color: var(--text-light-blue);
+}
+
+.fa-sun {
+    left: 5px;
+    color: var(--text-light-dark-blue);
+}
+
+.fa-moon {
+    right: 5px;
+    color: var(--text-light-dark-blue);
+}
+
+#checkbox:checked + .ball {
+    transform: translate(29px, -50%);
+}

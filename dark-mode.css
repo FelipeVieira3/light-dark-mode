@@ -1,0 +1,8 @@
+.dark {
+    --background: hsl(230, 17%, 14%);
+    --top-light-BG-pattern: hsl(232, 19%, 15%);
+    --card-light-BG: hsl(228, 28%, 20%);
+    --text-light-blue: hsl(228, 34%, 66%);
+    --text-light-dark-blue: hsl(0, 0%, 100%);
+}
+

@@ -1,0 +1,32 @@
+:root {
+    /*Primárias*/
+    --lime-green: hsl(163, 72%, 41%);
+    --bright-red: hsl(356, 69%, 56%);
+
+    /*Redes sociais*/
+    --facebook: hsl(208, 92%, 53%);
+    --twitter: hsl(203, 89%, 53%);
+    --instagram: linear-gradient(to right, hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+
+    /*Dark toggle BG*/
+    --toggle-dark: linear-gradient(hsl(210, 78%, 56%) to hsl(146, 68%, 55%));
+
+    /*Light toggle BG*/
+    --toggle-light: hsl(230, 22%, 74%);
+
+    /*Dark theme*/
+    --dark-background: hsl(230, 17%, 14%);
+    --top-dark-BG-pattern: hsl(232, 19%, 15%);
+    --card-dark-BG: hsl(228, 28%, 20%);
+    --text-dark-blue: hsl(228, 34%, 66%);
+    --text-white: hsl(0, 0%, 100%);
+
+    /*Light theme*/
+    --background: hsl(0, 0%, 100%);
+    --top-light-BG-pattern: hsl(225, 100%, 98%);
+    --card-light-BG: hsl(227, 47%, 96%);
+    --text-light-blue: hsl(228, 12%, 44%);
+    --text-light-dark-blue: hsl(230, 17%, 14%);
+
+
+}

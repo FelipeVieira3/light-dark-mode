@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="./CSS/cards.css">
+  <link rel="stylesheet" href="./CSS/overview.css">
+  <link rel="stylesheet" href="./CSS/dark-mode.css">
+  <link rel="stylesheet" href="./CSS/responsive.css">
+  <title>Frontend Mentor | Theme Switcher!</title>
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="cabecalho__titulo">
+      <h1>Social Media Dashboard</h1>
+      <p>Total Followers: 23,004</p>
+    </div>
+    <div class="cabecalho__switcher">
+      <p class="cabecalho__modo">Light Mode</p>
+      <div class="onoff">
+        <label for="checkbox" class="toggler">
+          <input type="checkbox" id="checkbox">
+          <span class="ball"></span>
+          <i class="far fa-sun"></i>
+          <i class="far fa-moon"></i>
+        </label>
+    </div>
+    </div>
+  </header>
+  
+  <section class="cards">
+    <article class="card facebook">
+      <div class="icon-container">
+        <img src="./images/icon-facebook.svg" alt="">
+        <p class="facebook icon">@nathanf</p>
+      </div>
+      <p class="facebook numbers">1987</p>
+      <p class="facebook followers">Followers</p>
+      <div class="up-container">
+        <img src="./images/icon-up.svg" alt="" class="up-img">
+        <p class="facebook up">12 Today</p>
+      </div>
+    </article>
+    <article class="card twitter">
+      <div class="icon-container">
+        <img src="./images/icon-twitter.svg" alt="">
+        <p class="twitter icon">@nathanf</p>
+      </div>
+      <p class="twitter numbers">1044</p>
+      <p class="twitter followers">Followers</p>
+      <div class="up-container">
+        <img src="./images/icon-up.svg" alt="" class="up-img">
+        <p class="twitter up">99 Today</p>
+      </div>
+    </article>
+    <article class="card instagram">
+      <div class="icon-container">
+        <img src="./images/icon-instagram.svg" alt="">
+        <p class="instagram icon">@realnathanf</p>
+      </div>
+      <p class="instagram numbers">11k</p>
+      <p class="instagram followers">Followers</p>
+      <div class="up-container">
+        <img src="./images/icon-up.svg" alt="" class="up-img">
+        <p class="instagram up">1099 Today</p>
+      </div>
+    </article>
+    <article class="card youtube">
+      <div class="icon-container">
+        <img src="./images/icon-youtube.svg" alt="">
+        <p class="youtube icon">Nathan F.</p>
+      </div>
+      <p class="youtube numbers">8239</p>
+      <p class="youtube followers">Followers</p>
+      <div class="down-container">
+        <img src="./images/icon-down.svg" alt="" class="down-img">
+        <p class="youtube down">144 Today</p>
+      </div>
+    </article>
+  </section>
+
+
+  <section class="overview">
+    <h2 class="overview-cards__title">Overview - Today</h2>
+    <div class="overview-cards">
+    <article class="overview-cards__card">
+      <div class="page-views">
+        <p>Page Views</p>
+        <p class="numbers">87</p>
+      </div>
+      <div class="page-views__numbers">
+        <img src="./images/icon-facebook.svg" alt="">
+        <div class="porcentagem-container">
+          <img src="./images/icon-up.svg" alt="">
+          <p class="porcentagem-up">3%</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="overview-cards__card">
+      <div class="page-views">
+        <p>Likes</p>
+        <p class="numbers">52</p>
+      </div>
+      <div class="page-views__numbers">
+        <img src="./images/icon-facebook.svg" alt="">
+        <div class="porcentagem-container">
+          <img src="./images/icon-down.svg" alt="">
+          <p class="porcentagem-down">2%</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="overview-cards__card">
+      <div class="page-views">
+        <p>Likes</p>
+        <p class="numbers">5462</p>
+      </div>
+      <div class="page-views__numbers">
+        <img src="./images/icon-instagram.svg" alt="" class="instagram-icon">
+        <div class="porcentagem-container">
+          <img src="./images/icon-up.svg" alt="">
+          <p class="porcentagem-up">2257%</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="overview-cards__card">
+      <div class="page-views">
+        <p>Profile Views</p>
+        <p class="numbers">52k</p>
+      </div>
+      <div class="page-views__numbers">
+        <img src="./images/icon-instagram.svg" alt="" class="instagram-icon">
+        <div class="porcentagem-container">
+          <img src="./images/icon-up.svg" alt="">
+          <p class="porcentagem-up">1375%</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="overview-cards__card">
+      <div class="page-views">
+        <p>Retweets</p>
+        <p class="numbers">117</p>
+      </div>
+      <div class="page-views__numbers">
+        <img src="./images/icon-twitter.svg" alt="" class="twitter-icon">
+        <div class="porcentagem-container">
+          <img src="./images/icon-up.svg" alt="">
+          <p class="porcentagem-up">303%</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="overview-cards__card">
+      <div class="page-views">
+        <p>Likes</p>
+        <p class="numbers">507</p>
+      </div>
+      <div class="page-views__numbers">
+        <img src="./images/icon-twitter.svg" alt="" class="twitter-icon">
+        <div class="porcentagem-container">
+          <img src="./images/icon-up.svg" alt="">
+          <p class="porcentagem-up">553%</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="overview-cards__card">
+      <div class="page-views">
+        <p>Likes</p>
+        <p class="numbers">107</p>
+      </div>
+      <div class="page-views__numbers">
+        <img src="./images/icon-youtube.svg" alt="" class="youtube-icon">
+        <div class="porcentagem-container">
+          <img src="./images/icon-down.svg" alt="">
+          <p class="porcentagem-down">19%</p>
+        </div>
+      </div>
+    </article>
+
+    <article class="overview-cards__card">
+      <div class="page-views">
+        <p>Total Views</p>
+        <p class="numbers">1407</p>
+      </div>
+      <div class="page-views__numbers">
+        <img src="./images/icon-youtube.svg" alt="" class="youtube-icon">
+        <div class="porcentagem-container">
+          <img src="./images/icon-down.svg" alt="">
+          <p class="porcentagem-down">12%</p>
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+  <script src="./JS/main.js"></script>
+</body>
+</html>
